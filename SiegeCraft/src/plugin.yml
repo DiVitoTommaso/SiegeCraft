@@ -1,0 +1,40 @@
+main: com.siege.core.SiegeCraft
+name: SiegeCraft
+api-version: 1.13
+version: 1.2.23
+author: Di vito
+description: Brawl Stars Siege minigame on minecraft
+commands:
+   spawnrobot:
+      description: spawn a robot for a team to attack enemy tower. During game stats are calculated based on tower's powerups,
+         robot stats can be changed at code level using SiegePlugin.getInstance().spawnRobot()
+      usage: /spawnrobot <owner (blue/red)>
+      permission: siege.robot
+   setspawn:
+      description: create rectangular spawn area for a team
+      usage: /setspawn <blue/red>
+      permission: siege.spawn
+   removeteam:
+      description: remove a list of players from their team
+      usage: /removeteam <player> <player> ...
+      permission: siege.team
+   setteam:
+      description: set the team for a list of players
+      usage: /setteam <blue/red> <player> <player> ...
+      permission: siege.team
+   settower:
+      description: create a tower for a team. Tower stats can be changed only at code level using SiegePlugin.getInstance().spawnTower()
+      usage: /settower <blue/red> <radius>
+      permission: siege.tower
+   setppspawn:
+      description: set spawn ratio of powerups in a rectangular area
+      usage: /setppspawn <spawn delay (seconds)> <radius>
+      permission: siege.powerup
+   play:
+      description: start a game of siege if all the objects are set
+      usage: /play <play time (seconds)> <robot spawn delay (seconds)>
+      permission: siege.play
+   stop:
+      description: ask server to stop the current siege game
+      usage: /stop
+      permission: siege.stop
