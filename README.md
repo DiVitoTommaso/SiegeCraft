@@ -11,4 +11,4 @@ The plugin offer a full handle of the game you don't need to do anything else ot
 # Requirements:
 To compile this project you need external 2 libraries:
 * Spigot: https://getbukkit.org/get/bf44510c50ddefccbaee1379c1f751de
-* JavaFX: https://gluonhq.com/products/javafx/ (only javafx.base jar is needed 
+* JavaFX: https://gluonhq.com/products/javafx/ (only javafx.base jar is needed) 
