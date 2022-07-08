@@ -16,5 +16,5 @@ To compile this project you need external 2 libraries:
 # Javadoc
 In doc directory you can find the javadoc of each class with all public methods documented
 
-# TO DO
+# To Do
 - Upload release binaries
